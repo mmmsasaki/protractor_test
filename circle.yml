@@ -4,6 +4,7 @@ machine:
 dependencies:
   pre:
     - npm install -g bower
+    - npm install
     - bower install
     - node_modules/protractor/bin/webdriver-manager update
   cache_directories:
