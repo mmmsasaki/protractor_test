@@ -13,4 +13,4 @@ test:
   pre:
     - grunt serve:
         background: true
-    - sleep 10
+    - sleep 5
